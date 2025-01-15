@@ -1,0 +1,21 @@
+.button {
+  @include fluid-text(18, 16);
+
+  border-radius: var(--border-radius-small);
+  background: linear-gradient(96deg, #da8023 0%, #e2b438 100%);
+  width: 260px;
+  height: 62px;
+  padding: 19px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+  color: var(--color-dark);
+
+  @include hover {
+    background: linear-gradient(96deg, #ac6115 0%, #9e7a19 100%);
+  }
+}

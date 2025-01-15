@@ -1,0 +1,8 @@
+.title {
+  font-family: var(--font-family-alt);
+  font-size: clamp(1.875rem, 1.102rem + 3.86vw, 4rem);
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: center;
+}

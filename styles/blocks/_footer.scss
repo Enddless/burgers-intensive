@@ -1,0 +1,14 @@
+.footer {
+  padding: 60px 0;
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__rights {
+    @include fluid-text(16, 14);
+
+    line-height: 20px;
+  }
+}

@@ -1,0 +1,33 @@
+.why {
+  background-image: url('../../images/whybg.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: initial;
+  padding-bottom: 180px;
+
+  &__list {
+    margin-top: 60px;
+    display: flex;
+    gap: 20px;
+
+    @include tablet {
+      flex-direction: column;
+    }
+  }
+  &__item {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+
+    &-title {
+      font-size: clamp(1.25rem, 1.159rem + 0.45vw, 1.5rem);
+      line-height: 29px;
+      padding: 24px 0;
+    }
+    &-text {
+      font-size: clamp(0.875rem, 0.83rem + 0.23vw, 1rem);
+      line-height: 1.4;
+    }
+  }
+}

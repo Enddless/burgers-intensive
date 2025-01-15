@@ -1,0 +1,6 @@
+@import 'normalize', 'fonts', 'mixins', 'media', 'variables', 'utils',
+  'globals';
+
+@import 'blocks/button', 'blocks/section', 'blocks/title',
+  'blocks/footer', 'blocks/header', 'blocks/order', 'blocks/product',
+  'blocks/why', 'blocks/hero';
